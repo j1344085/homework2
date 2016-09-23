@@ -6,6 +6,7 @@ class A01{
 		
 	public static void main(String[] a){
 		new A01().start();
+
 	}
 	
 	void start(){
@@ -14,6 +15,7 @@ class A01{
 		int year = s.nextInt();
 		
 		this.age = 2016 - year + 1;
+		print();
 	}
 
 	void print(){
